@@ -1,4 +1,4 @@
-# AlgoZenith WebDev Hackathon: DSASearch
+#  DSA Search Engine
 
 Welcome to DSASearch, a project developed for the AlgoZenith WebDev Hackathon! 🚀
 
