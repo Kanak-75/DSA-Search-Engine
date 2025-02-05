@@ -26,9 +26,7 @@ DSASearch is a dynamic search engine designed to streamline your journey through
 - `server/`: Houses the Express backend that powers the search engine.
 - `scripts/`: Includes scripts for data retrieval using Selenium.
 
-## Live Demo
 
-Check out the live version of DSASearch at []().
 
 ## Contributions
 
@@ -38,8 +36,6 @@ Contributions are welcome! Whether you're a developer, designer, or algorithm en
 
 Got feedback or suggestions? We'd love to hear from you. Open an issue or reach out to us.
 
-## Acknowledgments
 
-DSASearch was developed for the AlgoZenith WebDev Hackathon. Special thanks to the organizers and fellow participants for the inspiration and support.
 
 Let's solve algorithms with ease using DSASearch! Happy hacking! 🌟
