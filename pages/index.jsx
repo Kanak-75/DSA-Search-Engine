@@ -41,7 +41,7 @@ function NewComp() {
     setData([]);
     let myQuery = query.split(" ");
     console.log(myQuery);
-    await axios.get('https://algosearch-backend.onrender.com/search', {
+    await axios.get('https://DSAsearch-backend.onrender.com/search', {
       headers: {
         'Content-Type': 'application/json'
       },
@@ -119,7 +119,7 @@ function NewComp() {
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
               </svg>
                 {/* Text */}
-              </button></div></div></form><div class="px-3 pb-3 pt-2 text-center text-xs text-gray-600 dark:text-gray-300 md:px-4 md:pb-6 md:pt-3"><span>AlgoSearch in beta testing may produce inaccurate predictions. <a href="https://www.linkedin.com/in/gaudsuraj/" target="_blank" rel="noreferrer" class="underline">Developer AlgoSearch</a></span></div></div>
+              </button></div></div></form><div class="px-3 pb-3 pt-2 text-center text-xs text-gray-600 dark:text-gray-300 md:px-4 md:pb-6 md:pt-3"><span>DSASearch in beta testing may produce inaccurate predictions. <a href="https://www.linkedin.com/in/gaudsuraj/" target="_blank" rel="noreferrer" class="underline">Developer DSASearch</a></span></div></div>
           </div>
         </div>
       </main>

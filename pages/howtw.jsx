@@ -10,7 +10,7 @@ export default function index() {
     const toggleIsNavOpen = () => setIsNavOpen((cur) => !cur);
     return (
         <>
-            <CustomHead title="How AlgoSearch Works"/>
+            <CustomHead title="How DSASearch Works"/>
             <main className="w-screen min-h-screen">
                 <div className="flex justify-between items-center w-[95vw] mx-auto mt-4" >
                     <div className="flex justify-start items-center gap-2 ">
@@ -53,26 +53,26 @@ export default function index() {
                             Scrapping
                         </h1>
                         <p>
-                            In order to provide a comprehensive search experience for algorithmic problems, we understand the importance of having a diverse and extensive dataset. To accomplish this, we employ web scraping techniques to gather relevant data from various online sources. By collecting and organizing this data, we ensure that AlgoSearch has a rich repository of algorithms to search and process with machine learning algorithms.
+                            In order to provide a comprehensive search experience for algorithmic problems, we understand the importance of having a diverse and extensive dataset. To accomplish this, we employ web scraping techniques to gather relevant data from various online sources. By collecting and organizing this data, we ensure that DSASearch has a rich repository of algorithms to search and process with machine learning algorithms.
                         </p>
                     </div>
                     <div>
                         <h1 className="monu text-xl text-blue-600">Implementing TF-IDF</h1>
                         <p>
-                            Once the data is obtained through web scraping, we leverage the power of machine learning to enhance the search capabilities of AlgoSearch. One of the key algorithms we implement is TF-IDF (Term Frequency-Inverse Document Frequency). TF-IDF allows us to analyze the importance of each keyword within the context of the entire dataset. By implementing TF-IDF on the scraped data, we ensure that AlgoSearch delivers accurate and relevant results based on the user's search query.
+                            Once the data is obtained through web scraping, we leverage the power of machine learning to enhance the search capabilities of DSASearch. One of the key algorithms we implement is TF-IDF (Term Frequency-Inverse Document Frequency). TF-IDF allows us to analyze the importance of each keyword within the context of the entire dataset. By implementing TF-IDF on the scraped data, we ensure that DSASearch delivers accurate and relevant results based on the user's search query.
                         </p>
                     </div>
                     <div>
                         <h1 className="monu text-xl text-blue-600">Setting up Backend</h1>
                         <p>
-                            ehind the scenes, AlgoSearch relies on a robust backend infrastructure to process user requests and deliver the predicted results. We have developed a RESTful API that efficiently handles incoming queries and communicates with the machine learning algorithms running in the background. This setup ensures seamless interaction between the frontend and backend components of AlgoSearch, enabling fast and reliable performance.
+                            ehind the scenes, DSASearch relies on a robust backend infrastructure to process user requests and deliver the predicted results. We have developed a RESTful API that efficiently handles incoming queries and communicates with the machine learning algorithms running in the background. This setup ensures seamless interaction between the frontend and backend components of DSASearch, enabling fast and reliable performance.
                         </p>
                     </div>
                     <div>
                         <h1 className="monu text-xl text-blue-600">Frontend</h1>
                         <p>
 
-                            The frontend of AlgoSearch is designed to provide a user-friendly and intuitive interface for users to interact with the system. To achieve this, we utilize Next.js for server-side rendering, which enhances the loading speed and overall performance of the application. Additionally, we have developed a custom API that connects the frontend to the backend, allowing users to retrieve detailed information about their search results. The frontend of AlgoSearch combines functionality with a visually appealing design, ensuring an enjoyable user experience.
+                            The frontend of DSASearch is designed to provide a user-friendly and intuitive interface for users to interact with the system. To achieve this, we utilize Next.js for server-side rendering, which enhances the loading speed and overall performance of the application. Additionally, we have developed a custom API that connects the frontend to the backend, allowing users to retrieve detailed information about their search results. The frontend of DSASearch combines functionality with a visually appealing design, ensuring an enjoyable user experience.
                         </p>
                     </div>
                 </div>
